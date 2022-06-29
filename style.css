@@ -1,0 +1,127 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: rgb(18, 18, 19);
+}
+    
+* {
+    font-family: "Times New Roman", Georgia, Serif;
+ }
+    
+p {
+    margin: 0;
+    padding: 0;
+}
+    
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+}
+    
+form {
+     padding: 0;
+     margin: 0;
+ }
+
+.flexible-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 270px;
+}
+
+ .zagolovok {
+    font-size: 45px;
+    color: white;  
+ }
+
+.password {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.length {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rangevalues {
+    text-decoration: underline;
+}
+
+#rangevalues, .symbols {
+    margin-left: 10px;
+}
+
+ .submit {
+    margin-top: 30px;
+ }
+
+ a.submit {
+    color:#00c6ff;
+    padding: 18px 60px;
+    width:100px;
+    text-decoration:none;
+    text-align:center;
+    display: block;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    font: 400 18px tahoma;
+    border: 1px solid #00C6FF;
+}
+
+a.submit:hover {
+   background-position: 0 0;
+   color:#fff;
+}
+
+.select_length {
+    font-size: 25px;
+    color: white;
+    margin-top: 30px;
+}
+
+.slider {
+    margin-top: 15px;
+}
+
+input[type="range"] {
+    width: 200px;
+    height: 7px;
+}
+input[type=range]::-webkit-slider-thumb {
+    cursor: pointer;
+}
+
+.using {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    color: white;
+}
+
+.using p, input[type="checkbox"] {
+    margin-left: 8px;
+}
+

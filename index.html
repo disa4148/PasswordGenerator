@@ -1,0 +1,48 @@
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title> Password Generator </title>
+    </head>
+<body>
+
+<div class="wrapper"> 
+
+<div class="flexible-div">
+<div class="zagolovok"> 
+    <h5>Генерация пароля:</h5>
+</div>
+
+<div class="password">
+    <h5 id="final_pass">eJKoFhvd</h5>
+</div>
+
+<div class="button">
+    <a href="#" class="submit"> Сгенерировать </a>
+</div>
+
+<p class="select_length">Выберите длину пароля:</p>
+
+<div class="slider">
+    <input type="range" id="myrange" name="range" min="6" max="16" step="1" value="8">
+</div>
+
+<div class="length">
+    <h6> Длина:  </h6> <h6 id="rangevalues"> </h6> <h6 class="symbols"> символов</h6>
+</div>
+
+<div class="using">
+    <p>Используя</p>
+        <input type="checkbox" name="checkboxfornumbers" class="checkboxfornumbers">
+    <p>цифры</p>
+        <input type= "checkbox" name="checkboxforspecialssymbols" class="checkboxforspecialssymbols">
+    <p>спец. символы</p>
+</div>
+
+</div>
+</div>
+</body>
+</html>
+
+<script src="password_generator.js"></script>
